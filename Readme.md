@@ -12,9 +12,9 @@ git clone https://github.com/Fuzzyma/timer
 
 ### Check Requirements
 
-- do you have linux? Read [Step 2](#2_install_python_on_linux)
-- do you have Win10 64bit? Read [Step 3](#3_install_win_bash_only_64_bit)
-- do you have any other windows? Read [Step 1](#1_install_python_on_windows)
+- do you have linux? Read [Step 2](#2-install-python-on-linux)
+- do you have Win10 64bit? Read [Step 3](#3-install-win-bash-only-64-bit)
+- do you have any other windows? Read [Step 1](#1-install-python-on-windows)
 
 ### 1. Install Python on windows
 
@@ -31,17 +31,17 @@ Read more at [Usage](#usage).
 First check if it is already installed with `python --version`. It should print your python version which has to be 2.7.
 In case you have a newer python you may install 2.7. in parallel.
 Linux user can do that on their own :P.
-Proceed at [step 4](#4_setup_a_bash_alias)
+Proceed at [step 4](#4-setup-a-bash-alias)
 
 ### 3. Install Win Bash (only 64 bit)
 
-You did that already? Go to [step 4](#4_setup_a_bash_alias)
+You did that already? Go to [step 4](#4-setup-a-bash-alias)
 
 - Install the newest update (version 1607).
 - Go to Settings > Update & Security > For Developers > Activate the "Developer Mode"
 - Go to Control Panel > Programs > Turn Windows Features On or Off > Check "Windows Subsystem for Linux (Beta)"
 - Wait until its installed
-- Go to [step 4](#4_setup_a_bash_alias)
+- Go to [step 4](#4-setup-a-bash-alias)
 
 ### 4. Setup a bash alias
 
@@ -81,4 +81,4 @@ t 12:00:00 - 10:10:00  # prints 1:50:00
 t 12 - 2:30 4:0:20 - 4:50 3  # prints 11:40:20
 ```
 
-**You can also use one of [.,/-_] as separator instead of ":" (e.g. h,m,s instead of hh:mm:ss)**
+**You can also use one of `[.,/-_]` as separator instead of `:` (e.g. `h,m,s` instead of `hh:mm:ss`)**
