@@ -45,6 +45,8 @@ You did that already? Go to [step 4](#4-setup-a-bash-alias)
 
 ### 4. Setup a bash alias
 
+Open a bash terminal and type
+
 ```
 vim ~/.bashrc
 ```
@@ -62,6 +64,8 @@ In win10 bash your filesystem is mounted in `/mnt` so e.g. `C:\\Program Files\ti
 
 
 ## Usage
+
+Open a bash terminal.
 
 _When you don't have linux or win10 bash, you have to replace "t" with "python /path/to/timer.py"_
 
