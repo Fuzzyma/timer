@@ -55,6 +55,8 @@ Press "i" for insert mode and add the following line:
 alias t="python /path/to/timer.py"
 ```
 
+Press `Esc` and `:x` to save. Source your `.bashrc` with `. ~/.bashrc`.
+
 In win10 bash your filesystem is mounted in `/mnt` so e.g. `C:\\Program Files\timer\timer.py` gets translated to
 `/mnt/c/Program\ Files\timer.py`
 
